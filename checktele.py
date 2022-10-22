@@ -166,7 +166,7 @@ async def _(event):
     if ispay2[0] == "yes":
         await event.edit(tele_checker)
     else:
-        await event.edit("يجب الدفع لاستعمال هذا الامر !")
+        await event.edit(" !")
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.اليوزرات المبندة"))
@@ -174,7 +174,7 @@ async def _(event):
     if ispay2[0] == "yes":
         await sedthon.send_file(event.chat_id, 'banned.txt')
     else:
-        await event.edit("يجب الدفع لاستعمال هذا الامر !")
+        await event.edit("المطور مسويها بفلوس !")
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.الانواع"))
@@ -182,7 +182,7 @@ async def _(event):
     if ispay2[0] == "yes":
         await event.edit(tele_checker2)
     else:
-        await event.edit("يجب الدفع لاستعمال هذا الامر !")
+        await event.edit("مر !")
 
 
 # كلايم عدد نوع قناة
