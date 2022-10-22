@@ -1,14 +1,14 @@
 {
-    "name": "Sedthon",
+    "name": "DevMustfa Chker",
     "description": "User bot for telegram !",
     "stack": "container",
-    "repository": "https://github.com/perdark/per-sed",
+    "repository": "https://github.com/mnxs8/television/",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
     ],
-    "website": "https://github.com/perdark/per-sed",
+    "website": "https://github.com/mnxs8/television/",
     "env": {
         "APP_ID": {
             "description": "ايبي ايدي",
